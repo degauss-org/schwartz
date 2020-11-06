@@ -3,5 +3,4 @@
 
 # except what we need
 !/renv.lock
-!/schwartz_grid_lookup.R
-!/schwartz_grid_geohashed.rds
+!/schwartz.R

@@ -1,3 +1,8 @@
 *.rds
 *.fst
 *.qs
+.Rproj.user
+.DS_Store
+.Rhistory
+test/add_random_dates.R
+test/my_address_file_geocoded_schwartz_site_index.csv
