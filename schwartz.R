@@ -19,8 +19,8 @@ if (! 'sitecode' %in% names(raw_data)) stop('no column called sitecode found in 
 if (! 'start_date' %in% names(raw_data)) stop('no column called start_date found in the input file', call. = FALSE)
 if (! 'end_date' %in% names(raw_data)) stop('no column called end_date found in the input file', call. = FALSE)
 
-if(class(raw_data$sitecode) != "character") {
-  raw_data$sitecode <- as.character(raw_data$sitecode)
+if(class(raw_data$sitecode) != "double") {
+  raw_data$sitecode <- as.double(raw_data$sitecode)
 }
 
 if(class(raw_data$start_date) != "Date") {

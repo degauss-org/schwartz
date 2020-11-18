@@ -200,10 +200,10 @@
     },
     "lubridate": {
       "Package": "lubridate",
-      "Version": "1.7.9",
+      "Version": "1.7.9.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "638c014d8ced31739d6f296eb973a603"
+      "Hash": "1bbfabfdb495b26978f6a59907bc2002"
     },
     "magrittr": {
       "Package": "magrittr",
@@ -284,15 +284,15 @@
     },
     "schwartzGeohashPM": {
       "Package": "schwartzGeohashPM",
-      "Version": "0.0.1",
+      "Version": "0.0.2",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "schwartzGeohashPM",
       "RemoteUsername": "degauss-org",
       "RemoteRef": "HEAD",
-      "RemoteSha": "eb3bb15cf4c5c37a3ef3cc90a578f808a61d0ba5",
-      "Hash": "a530a81ad2ea0eb79348e7893f87f228"
+      "RemoteSha": "8685277c905e4b9e57c88d75aee5216ec88e765b",
+      "Hash": "aea92ca287f6c6264619a6e5482ede15"
     },
     "stringfish": {
       "Package": "stringfish",
