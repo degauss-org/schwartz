@@ -3,7 +3,7 @@
 > add PM2.5, NO2, and O3 concentrations from Schwartz Model to data
 
 [![Docker Build Status](https://img.shields.io/docker/automated/degauss/schwartz)](https://hub.docker.com/repository/docker/degauss/schwartz/tags)
-[![GitHub Latest Tag](https://img.shields.io/github/v/tag/degauss-org/schwartz)](https://github.com/degauss-org/schwartz/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/degauss-org/schwartz)](https://github.com/degauss-org/schwartz/releases)
 
 ## DeGAUSS example call
 
