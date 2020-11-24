@@ -19,6 +19,8 @@ RUN apt-get update \
 
 COPY renv.lock .
 RUN R --quiet -e "renv::restore()"
+RUN R --quiet -e "reticulate::install_miniconda()"
+RUN R --quiet -e "reticulate::py_install('boto3')"
 
 COPY schwartz.R .
 

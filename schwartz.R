@@ -36,7 +36,7 @@ Sys.setenv("AWS_ACCESS_KEY_ID" = opt$aws_key,
            "AWS_DEFAULT_REGION" = "us-east-2")
 
 ## function for creating a geomarker based on a single sf point
-out <- schwartzGeohashPM::add_schwartz_pollutants(raw_data, download_dir = fs::path_wd())
+out <- schwartzGeohashPM::add_schwartz_pollutants(raw_data)
 
 out_file_name <- paste0(tools::file_path_sans_ext(opt$filename), '_schwartz.csv')
 readr::write_csv(out, out_file_name)

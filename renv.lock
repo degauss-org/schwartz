@@ -16,6 +16,13 @@
       "Repository": "CRAN",
       "Hash": "e58de006ec59d5faba3c0482bdc598cf"
     },
+    "Matrix": {
+      "Package": "Matrix",
+      "Version": "1.2-18",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "9df720f304c83d8bf371d1b6ffb9bbd1"
+    },
     "R6": {
       "Package": "R6",
       "Version": "2.5.0",
@@ -81,10 +88,10 @@
     },
     "cli": {
       "Package": "cli",
-      "Version": "2.1.0",
+      "Version": "2.2.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "466006082614bf328f87843513908ba8"
+      "Hash": "10fc3622094cb738dfdb9ee3cd6b7613"
     },
     "clipr": {
       "Package": "clipr",
@@ -191,6 +198,13 @@
       "Repository": "CRAN",
       "Hash": "6bfec007c2a9206ab9f32fec4174c6ad"
     },
+    "lattice": {
+      "Package": "lattice",
+      "Version": "0.20-38",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "6f7aa123115b33bc9ad1ca800874b1de"
+    },
     "lifecycle": {
       "Package": "lifecycle",
       "Version": "0.2.0",
@@ -207,10 +221,10 @@
     },
     "magrittr": {
       "Package": "magrittr",
-      "Version": "1.5",
+      "Version": "2.0.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "dee1d97cffddfd3ed969e224bd0826d0"
+      "Hash": "12b02fd638c067f8d9b9bc25b27c09a7"
     },
     "mime": {
       "Package": "mime",
@@ -228,10 +242,10 @@
     },
     "pillar": {
       "Package": "pillar",
-      "Version": "1.4.6",
+      "Version": "1.4.7",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "510f0218bd764d29b4d6f959f4328f17"
+      "Hash": "29ceedd4072a74d516854f2b9ab80883"
     },
     "pkgconfig": {
       "Package": "pkgconfig",
@@ -239,6 +253,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "587295d4cdb937d4e3cf19bd46829326"
+    },
+    "prettyunits": {
+      "Package": "prettyunits",
+      "Version": "1.1.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "a9c856513f34774cadde1bcfb292b815"
     },
     "progressr": {
       "Package": "progressr",
@@ -261,6 +282,13 @@
       "Repository": "CRAN",
       "Hash": "cb814447d82661775c62125fed7dc821"
     },
+    "rappdirs": {
+      "Package": "rappdirs",
+      "Version": "0.3.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "5bc532ab747c4d7c8b753ca9b7faee8d"
+    },
     "readr": {
       "Package": "readr",
       "Version": "1.4.0",
@@ -275,6 +303,13 @@
       "Repository": "CRAN",
       "Hash": "4ee3e91b679fbd7102c1fd51f9a4bc59"
     },
+    "reticulate": {
+      "Package": "reticulate",
+      "Version": "1.18",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c629b0aa663b8eb93f321637ac7b2fcd"
+    },
     "rlang": {
       "Package": "rlang",
       "Version": "0.4.8",
@@ -282,17 +317,30 @@
       "Repository": "CRAN",
       "Hash": "f2fa52d7402fcf0ef5f05e86d6fb6247"
     },
+    "s3": {
+      "Package": "s3",
+      "Version": "0.1",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "s3",
+      "RemoteUsername": "geomarker-io",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "52aa36d9552f3a637b4de202c1f1d06f44d849e3",
+      "Hash": "25e711fee8f377c03f0593579653742a"
+    },
     "schwartzGeohashPM": {
       "Package": "schwartzGeohashPM",
-      "Version": "0.0.2",
+      "Version": "0.0.3",
       "Source": "GitHub",
+      "Remotes": "geomarker-io/s3",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "schwartzGeohashPM",
       "RemoteUsername": "degauss-org",
       "RemoteRef": "HEAD",
-      "RemoteSha": "8685277c905e4b9e57c88d75aee5216ec88e765b",
-      "Hash": "aea92ca287f6c6264619a6e5482ede15"
+      "RemoteSha": "0c035a150164776886ec23afb073deeec2c42850",
+      "Hash": "c7ec85f58c22086e9b7b4298ccb7cb40"
     },
     "stringfish": {
       "Package": "stringfish",
@@ -352,10 +400,10 @@
     },
     "vctrs": {
       "Package": "vctrs",
-      "Version": "0.3.4",
+      "Version": "0.3.5",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "cc4adba7377b26e5f5c65289158cd69d"
+      "Hash": "d075099fcc2c671cb675cc019c76298a"
     },
     "xml2": {
       "Package": "xml2",
