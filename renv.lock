@@ -51,40 +51,12 @@
       "Repository": "CRAN",
       "Hash": "88450c1d8b383284da433c70c675ed0b"
     },
-    "askpass": {
-      "Package": "askpass",
-      "Version": "1.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "46678e19f261db289be40292d8e5d5bf"
-    },
     "assertthat": {
       "Package": "assertthat",
       "Version": "0.2.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "19fb3d0ad048b4eb1a05cacffbae1f66"
-    },
-    "aws.s3": {
-      "Package": "aws.s3",
-      "Version": "0.3.21",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "b7ab0157e36e2db4ff4ad9f44cb69861"
-    },
-    "aws.signature": {
-      "Package": "aws.signature",
-      "Version": "0.6.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "35f14f74a1310e69f4d19fb3c72a8a11"
-    },
-    "base64enc": {
-      "Package": "base64enc",
-      "Version": "0.1-3",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "d355963b4b1c3039bfe8d65611a11cca"
     },
     "cli": {
       "Package": "cli",
@@ -113,13 +85,6 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "d308ead32010b8e4d76c4690427da50b"
-    },
-    "curl": {
-      "Package": "curl",
-      "Version": "4.3",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "f42ae4b12d342a357cc551ca1ecd8cc1"
     },
     "digest": {
       "Package": "digest",
@@ -184,13 +149,6 @@
       "Repository": "CRAN",
       "Hash": "7c3e8c9778eb718194edb01856ac64bd"
     },
-    "httr": {
-      "Package": "httr",
-      "Version": "1.4.2",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "2082e4e3adfb1f1dbd4e7c57ca5449e9"
-    },
     "jsonlite": {
       "Package": "jsonlite",
       "Version": "1.7.1",
@@ -225,20 +183,6 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "12b02fd638c067f8d9b9bc25b27c09a7"
-    },
-    "mime": {
-      "Package": "mime",
-      "Version": "0.9",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "e59a04f0ccda8364024195028ae2e234"
-    },
-    "openssl": {
-      "Package": "openssl",
-      "Version": "1.4.3",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "c3656e8db85f8e886454bce33f21e6f6"
     },
     "pillar": {
       "Package": "pillar",
@@ -277,10 +221,10 @@
     },
     "qs": {
       "Package": "qs",
-      "Version": "0.23.3",
+      "Version": "0.23.4",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "cb814447d82661775c62125fed7dc821"
+      "Hash": "a8c3733334b6b48fbf5addfa186430fe"
     },
     "rappdirs": {
       "Package": "rappdirs",
@@ -312,10 +256,10 @@
     },
     "rlang": {
       "Package": "rlang",
-      "Version": "0.4.8",
+      "Version": "0.4.9",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "f2fa52d7402fcf0ef5f05e86d6fb6247"
+      "Hash": "44a93a80b6804be2275bbe664ce8ef04"
     },
     "s3": {
       "Package": "s3",
@@ -326,12 +270,12 @@
       "RemoteRepo": "s3",
       "RemoteUsername": "geomarker-io",
       "RemoteRef": "HEAD",
-      "RemoteSha": "52aa36d9552f3a637b4de202c1f1d06f44d849e3",
-      "Hash": "25e711fee8f377c03f0593579653742a"
+      "RemoteSha": "448c5662a2574f75473e9593d641ce4d6cc86716",
+      "Hash": "10254f39965d33a24893123954a49866"
     },
     "schwartzGeohashPM": {
       "Package": "schwartzGeohashPM",
-      "Version": "0.0.3",
+      "Version": "0.0.4",
       "Source": "GitHub",
       "Remotes": "geomarker-io/s3",
       "RemoteType": "github",
@@ -339,8 +283,8 @@
       "RemoteRepo": "schwartzGeohashPM",
       "RemoteUsername": "degauss-org",
       "RemoteRef": "HEAD",
-      "RemoteSha": "0c035a150164776886ec23afb073deeec2c42850",
-      "Hash": "c7ec85f58c22086e9b7b4298ccb7cb40"
+      "RemoteSha": "bee6252caf6a7a6251e5d6a23fbad7abc7ce2fee",
+      "Hash": "0d23110cff0e80c173f301edec76a9e5"
     },
     "stringfish": {
       "Package": "stringfish",
@@ -362,13 +306,6 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "41d6310ad18bd019a203d7adc496a28b"
-    },
-    "sys": {
-      "Package": "sys",
-      "Version": "3.4",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "e20ebcbb82281356bafa932e66e3a1d9"
     },
     "tibble": {
       "Package": "tibble",
@@ -404,13 +341,6 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "d075099fcc2c671cb675cc019c76298a"
-    },
-    "xml2": {
-      "Package": "xml2",
-      "Version": "1.3.2",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "42a8d577426b9f34e7ef669047e9ccda"
     }
   }
 }
