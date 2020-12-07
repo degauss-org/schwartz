@@ -1,45 +1,33 @@
 # schwartz <a href='https://degauss-org.github.io/DeGAUSS/'><img src='DeGAUSS_hex.png' align="right" height="138.5" /></a>
 
-> add PM2.5, NO2, and O3 concentrations from Schwartz Model to data
+> add daily PM2.5, NO2, and O3 concentrations from Schwartz Model to data
 
 [![Docker Build Status](https://img.shields.io/docker/automated/degauss/schwartz)](https://hub.docker.com/repository/docker/degauss/schwartz/tags)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/degauss-org/schwartz)](https://github.com/degauss-org/schwartz/releases)
 
 ## DeGAUSS example call
 
-If `my_address_file_geocoded_schwartz_site_index_dates.csv` (output from the [`schwartz_grid_lookup`](https://degauss.org/schwartz_grid_lookup/) container) is a file in the current working directory with columns named `sitecode`, `start_date` and `end_date`, and `aws_key` and `aws_secret_key` are provided AWS credentials, then
+If `my_address_file_geocoded_schwartz_site_index_dates.csv` (output from the [`schwartz_grid_lookup`](https://degauss.org/schwartz_grid_lookup/) container) is a file in the current working directory with columns named `sitecode`, `start_date` and `end_date`, then
 
 ```sh
-docker run --rm -v "$PWD":/tmp degauss/schwartz:0.1 my_address_file_geocoded_schwartz_site_index_dates.csv aws_key aws_secret_key
+docker run --rm -v "$PWD":/tmp degauss/schwartz:0.1 my_address_file_geocoded_schwartz_site_index_dates.csv
 ```
 
-will produce `my_address_file_geocoded_schwartz_site_index_dates_schwartz.csv` with added columns named `PM25`, `NO2`, and `O3`.
+will produce `my_address_file_geocoded_schwartz_site_index_dates_schwartz.csv` with added columns named `date`, `PM25`, `NO2`, and `O3`. 
 
-## Excel warning
+The output will be in "long" format, meaning there will be a row for every day between the `start_date` and `end_date`, defined by the new `date` column. 
 
-Opening the input CSV file in Microsoft Excel can change column formats resulting in incorrect pollution estimates from the `schwartz` container. If opening the CSV in Excel before feeding it to the container cannot be avoided, please follow the guidelines below for ensuring columns are formatted properly.
+## Optional `index_date`
 
-**1. `start_date` and `end_date`**
+The user may also supply a column called `index_date` to be used to anonymize dates. (For example, the index date may be the patient's date of birth.) When the `index_date` column is present in the input data, the output will include all columns as usual, plus a column called `days_from_index_date` (defined as`date` - `index_date`). The user can then remove the `start_date`, `end_date`, and `index_date` columns from the output (as long as `index_date` is stored elsewhere) to anonymize the data in terms of date. 
 
-Excel autoformats dates, usually as `MM/DD/YY`, regardless of the format in which the user supplied the date. Further, Excel will *display* a date in that format even if the actual *value* is stored in a different format. 
+## Dates and Sitecode formatting
 
-The `schwartz` container works best when dates are formatted as `YYYY-MM-DD`. You can change this format manually in Excel.
+- If `start_date` and `end_date` are not in ISO format (`YYYY-MM-DD`) or standard 'slash' format (`MM/DD/YY`), the container will return an error.
 
-Highlight your date columns and select "More Number Formats". Then, under **Date** formatting, select the `YYYY-MM-DD` format and click OK. 
+- If over half of the `sitecode`s end in all zeros, the container will return a warning, suggesting the user checks that sitecodes have not been unintentionally altered. 
 
-![](figs/format_columns.png){ width=45% }  ![](figs/format_dates.png){ width=45% }
-
-**2. `sitecode`**
-
-Because the sitecode is a large number (12 digits), Excel will often display it in scientific notation. If the sitecode does not remain formatted as a number, some digits could be stored as zeros, changing the sitecode to a different sitecode (this will result in pollutant data from the wrong geographic location). 
-
-Similar to formatting the dates, you can format the sitecode as a number. 
-
-![](figs/format_sitecode.png){ width=50% }
-
-**NOTE**: Excel's display will probably not show these changes if the file is saved, closed, and re-opened. One way to see the actual values of the csv file, is to open with a simple text editor, like notepad or TextEdit. 
-
-![](figs/open_with.png){ width=45% }  ![](figs/text_edit_view.png){ width=45% }
+See [Excel formatting for DeGAUSS](https://github.com/degauss-org/degauss-org.github.io/wiki/Excel-formatting-for-DeGAUSS) for more information.
 
 ## geomarker methods
 
