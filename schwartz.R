@@ -5,7 +5,7 @@ library(schwartzGeohashPM)
 
 doc <- '
 Usage:
-  schwartz.R <filename> <aws_key> <aws_secret_key>
+  schwartz.R <filename>
 '
 
 opt <- docopt::docopt(doc)
@@ -81,11 +81,6 @@ raw_data$end_date <- checkDates(raw_data$end_date)
 if ('index_date' %in% colnames(raw_data)) {
   raw_data$index_date <- checkDates(raw_data$index_date)
 }
-
-# set environment variables for s3
-Sys.setenv("AWS_ACCESS_KEY_ID" = opt$aws_key,
-           "AWS_SECRET_ACCESS_KEY" = opt$aws_secret_key,
-           "AWS_DEFAULT_REGION" = "us-east-2")
 
 ## add pollutant data
 out <- schwartzGeohashPM::add_schwartz_pollutants(raw_data)
