@@ -51,6 +51,13 @@
       "Repository": "CRAN",
       "Hash": "88450c1d8b383284da433c70c675ed0b"
     },
+    "askpass": {
+      "Package": "askpass",
+      "Version": "1.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "46678e19f261db289be40292d8e5d5bf"
+    },
     "assertthat": {
       "Package": "assertthat",
       "Version": "0.2.1",
@@ -85,6 +92,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "d308ead32010b8e4d76c4690427da50b"
+    },
+    "curl": {
+      "Package": "curl",
+      "Version": "4.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "f42ae4b12d342a357cc551ca1ecd8cc1"
     },
     "digest": {
       "Package": "digest",
@@ -149,6 +163,13 @@
       "Repository": "CRAN",
       "Hash": "7c3e8c9778eb718194edb01856ac64bd"
     },
+    "httr": {
+      "Package": "httr",
+      "Version": "1.4.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "2082e4e3adfb1f1dbd4e7c57ca5449e9"
+    },
     "jsonlite": {
       "Package": "jsonlite",
       "Version": "1.7.1",
@@ -183,6 +204,20 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "12b02fd638c067f8d9b9bc25b27c09a7"
+    },
+    "mime": {
+      "Package": "mime",
+      "Version": "0.9",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "e59a04f0ccda8364024195028ae2e234"
+    },
+    "openssl": {
+      "Package": "openssl",
+      "Version": "1.4.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c3656e8db85f8e886454bce33f21e6f6"
     },
     "pillar": {
       "Package": "pillar",
@@ -263,15 +298,15 @@
     },
     "s3": {
       "Package": "s3",
-      "Version": "0.1",
+      "Version": "0.2.2",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "s3",
       "RemoteUsername": "geomarker-io",
       "RemoteRef": "HEAD",
-      "RemoteSha": "f563de6f6daf76611aa6801c5fffca24192ecbd4",
-      "Hash": "91cc9ec31720de9b49779f9bcad21039"
+      "RemoteSha": "aa57f7a6bc8855995f40c307910d0b84e000bf47",
+      "Hash": "3388fcbeb57c705c0f652125ef264846"
     },
     "schwartzGeohashPM": {
       "Package": "schwartzGeohashPM",
@@ -281,10 +316,10 @@
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "schwartzGeohashPM",
-      "RemoteUsername": "degauss-org",
+      "RemoteUsername": "geomarker-io",
       "RemoteRef": "HEAD",
-      "RemoteSha": "bee6252caf6a7a6251e5d6a23fbad7abc7ce2fee",
-      "Hash": "0d23110cff0e80c173f301edec76a9e5"
+      "RemoteSha": "544d1f9568913cbfd51bf927c8875ae86dfb614a",
+      "Hash": "6278493cb65ac3f12ac07d0f9ac67c35"
     },
     "stringfish": {
       "Package": "stringfish",
@@ -306,6 +341,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "41d6310ad18bd019a203d7adc496a28b"
+    },
+    "sys": {
+      "Package": "sys",
+      "Version": "3.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "e20ebcbb82281356bafa932e66e3a1d9"
     },
     "tibble": {
       "Package": "tibble",
