@@ -172,10 +172,10 @@
     },
     "jsonlite": {
       "Package": "jsonlite",
-      "Version": "1.7.1",
+      "Version": "1.7.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "6bfec007c2a9206ab9f32fec4174c6ad"
+      "Hash": "07b2e94b17b32eac2d084d4e92282bc0"
     },
     "lattice": {
       "Package": "lattice",
@@ -298,15 +298,15 @@
     },
     "s3": {
       "Package": "s3",
-      "Version": "0.2.2",
+      "Version": "0.2.3",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "s3",
       "RemoteUsername": "geomarker-io",
       "RemoteRef": "HEAD",
-      "RemoteSha": "aa57f7a6bc8855995f40c307910d0b84e000bf47",
-      "Hash": "3388fcbeb57c705c0f652125ef264846"
+      "RemoteSha": "2719f7df7f93c6a8e09811be11293666f3f03bdb",
+      "Hash": "ba09207c6ce36abaf181424193222ecd"
     },
     "schwartzGeohashPM": {
       "Package": "schwartzGeohashPM",
@@ -318,8 +318,8 @@
       "RemoteRepo": "schwartzGeohashPM",
       "RemoteUsername": "geomarker-io",
       "RemoteRef": "HEAD",
-      "RemoteSha": "544d1f9568913cbfd51bf927c8875ae86dfb614a",
-      "Hash": "6278493cb65ac3f12ac07d0f9ac67c35"
+      "RemoteSha": "d968e80eaf9070120aa3bbd7a9ac8249b005f76a",
+      "Hash": "1cde2f31f1d08546f7dfd145163ff007"
     },
     "stringfish": {
       "Package": "stringfish",
