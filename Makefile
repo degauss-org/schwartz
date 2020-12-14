@@ -9,7 +9,7 @@ build:
 	docker build -t $(IMAGE) .
 
 test:
-	docker run --rm -v "${PWD}/test":/tmp $(IMAGE) my_address_file_geocoded_schwartz_site_index_dates.csv
+	docker run --rm -v "${PWD}/test":/tmp $(IMAGE) my_address_file_geocoded_schwartz_site_index.csv
 
 shell:
 	docker run --rm -it --entrypoint=/bin/bash -v "${PWD}/test":/tmp $(IMAGE)
