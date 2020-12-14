@@ -7,23 +7,23 @@
 
 ## DeGAUSS example call
 
-If `my_address_file_geocoded_schwartz_site_index_dates.csv` (output from the [`schwartz_grid_lookup`](https://degauss.org/schwartz_grid_lookup/) container) is a file in the current working directory with columns named `sitecode`, `start_date` and `end_date`, then
+If [`my_address_file_geocoded_schwartz_site_index.csv`](https://github.com/degauss-org/schwartz/blob/master/test/my_address_file_geocoded_schwartz_site_index.csv) (output from the [`schwartz_grid_lookup`](https://degauss.org/schwartz_grid_lookup/) container) is a file in the current working directory with columns named `sitecode`, `start_date`, `end_date`, and `index_date` (optional, see below), then
 
 ```sh
-docker run --rm -v "$PWD":/tmp degauss/schwartz:0.1 my_address_file_geocoded_schwartz_site_index_dates.csv
+docker run --rm -v "$PWD":/tmp degauss/schwartz:0.5 my_address_file_geocoded_schwartz_site_index.csv
 ```
 
-will produce `my_address_file_geocoded_schwartz_site_index_dates_schwartz.csv` with added columns named `date`, `PM25`, `NO2`, and `O3`. 
+will produce [`my_address_file_geocoded_schwartz_site_index_schwartz.csv`](https://github.com/degauss-org/schwartz/blob/master/test/my_address_file_geocoded_schwartz_site_index_schwartz.csv) with added columns named `date`, `PM25`, `NO2`, `O3`, and `days_from_index_date` (if `index_date` was supplied in the input data). 
 
 The output will be in "long" format, meaning there will be a row for every day between the `start_date` and `end_date`, defined by the new `date` column. 
 
 ## Optional `index_date`
 
-The user may also supply a column called `index_date` to be used to anonymize dates. (For example, the index date may be the patient's date of birth.) When the `index_date` column is present in the input data, the output will include all columns as usual, plus a column called `days_from_index_date` (defined as`date` - `index_date`). The user can then remove the `start_date`, `end_date`, and `index_date` columns from the output (as long as `index_date` is stored elsewhere) to anonymize the data in terms of date. 
+The user may choose to include a column called `index_date` to be used to anonymize dates. For example, the index date may be the patient's date of birth. When the `index_date` column is present in the input data, the output will include all columns as usual, plus a column called `days_from_index_date` (defined as`date` - `index_date`). The user can then remove the `start_date`, `end_date`, and `index_date` columns from the output (as long as `index_date` is stored elsewhere) to anonymize the data in terms of date. 
 
 ## Dates and Sitecode formatting
 
-- If `start_date` and `end_date` are not in ISO format (`YYYY-MM-DD`) or standard 'slash' format (`MM/DD/YY`), the container will return an error.
+- If `start_date` and `end_date` (and `index_date`) are not in ISO format (`YYYY-MM-DD`) or standard 'slash' format (`MM/DD/YY`), the container will return an error.
 
 - If over half of the `sitecode`s end in all zeros, the container will return a warning, suggesting the user checks that sitecodes have not been unintentionally altered. 
 
