@@ -1,7 +1,7 @@
 #!/usr/local/bin/Rscript
 
-library(dplyr)
-library(schwartzGeohashPM)
+suppressPackageStartupMessages(library(dplyr))
+suppressPackageStartupMessages(library(schwartzGeohashPM))
 
 doc <- '
 Usage:
