@@ -83,7 +83,7 @@ if ('index_date' %in% colnames(raw_data)) {
 }
 
 ## add pollutant data
-out <- schwartzGeohashPM::add_schwartz_pollutants(raw_data)
+out <- schwartzGeohashPM::add_schwartz_pollutants(raw_data, verbose = TRUE)
 
 out_file_name <- paste0(tools::file_path_sans_ext(opt$filename), '_schwartz.csv')
 readr::write_csv(out, out_file_name)

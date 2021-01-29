@@ -39,10 +39,10 @@
     },
     "Rcpp": {
       "Package": "Rcpp",
-      "Version": "1.0.5",
+      "Version": "1.0.6",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "0995668e16fa7349dafaec190acfd73b"
+      "Hash": "83f76e70c7f8295408bcaa289f9b839d"
     },
     "RcppParallel": {
       "Package": "RcppParallel",
@@ -81,10 +81,10 @@
     },
     "cpp11": {
       "Package": "cpp11",
-      "Version": "0.2.4",
+      "Version": "0.2.6",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "290e515e68adcddd16aa848685cc9e3f"
+      "Hash": "cd32780d91f286626a5e4718c7516261"
     },
     "crayon": {
       "Package": "crayon",
@@ -116,10 +116,10 @@
     },
     "dplyr": {
       "Package": "dplyr",
-      "Version": "1.0.2",
+      "Version": "1.0.3",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "293adfb2bdda327881aa7c52643c6ae6"
+      "Hash": "93cf7186ab5d843e0be486d22bfc9082"
     },
     "ellipsis": {
       "Package": "ellipsis",
@@ -130,10 +130,10 @@
     },
     "fansi": {
       "Package": "fansi",
-      "Version": "0.4.1",
+      "Version": "0.4.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "b95a15fe144c0db82f8f55cd961b4961"
+      "Hash": "141b801a904c830b99006de1626b80b1"
     },
     "fs": {
       "Package": "fs",
@@ -242,10 +242,10 @@
     },
     "progressr": {
       "Package": "progressr",
-      "Version": "0.6.0",
+      "Version": "0.7.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "3af9a663e02325307e3374e98b5dd4ea"
+      "Hash": "f8afea286a9e684e302a4f7a7c6d0de7"
     },
     "purrr": {
       "Package": "purrr",
@@ -256,10 +256,10 @@
     },
     "qs": {
       "Package": "qs",
-      "Version": "0.23.4",
+      "Version": "0.23.5",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "a8c3733334b6b48fbf5addfa186430fe"
+      "Hash": "1ba9503fbcfe4f30560bb841cc3d242e"
     },
     "rappdirs": {
       "Package": "rappdirs",
@@ -291,10 +291,10 @@
     },
     "rlang": {
       "Package": "rlang",
-      "Version": "0.4.9",
+      "Version": "0.4.10",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "44a93a80b6804be2275bbe664ce8ef04"
+      "Hash": "44d9375993fd4ee93593f5b0f58454c9"
     },
     "s3": {
       "Package": "s3",
@@ -316,10 +316,10 @@
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "schwartzGeohashPM",
-      "RemoteUsername": "geomarker-io",
+      "RemoteUsername": "degauss-org",
       "RemoteRef": "HEAD",
-      "RemoteSha": "d968e80eaf9070120aa3bbd7a9ac8249b005f76a",
-      "Hash": "1cde2f31f1d08546f7dfd145163ff007"
+      "RemoteSha": "cc6d19e1942b86b2d569de529dd08092a0832f94",
+      "Hash": "0189ff95787ee7b540819f8420c96919"
     },
     "stringfish": {
       "Package": "stringfish",
@@ -351,10 +351,10 @@
     },
     "tibble": {
       "Package": "tibble",
-      "Version": "3.0.4",
+      "Version": "3.0.5",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "87cb19467c4fdf08cc00943c0047e2bd"
+      "Hash": "a092486caaa8ec4887b3035108940e25"
     },
     "tidyr": {
       "Package": "tidyr",
@@ -379,10 +379,10 @@
     },
     "vctrs": {
       "Package": "vctrs",
-      "Version": "0.3.5",
+      "Version": "0.3.6",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "d075099fcc2c671cb675cc019c76298a"
+      "Hash": "f6f1d27f267089b238811673fcd1f2ff"
     }
   }
 }
