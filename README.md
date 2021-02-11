@@ -10,7 +10,7 @@
 If [`my_address_file_geocoded_schwartz_site_index.csv`](https://github.com/degauss-org/schwartz/blob/master/test/my_address_file_geocoded_schwartz_site_index.csv) (output from the [`schwartz_grid_lookup`](https://degauss.org/schwartz_grid_lookup/) container) is a file in the current working directory with columns named `sitecode`, `start_date`, `end_date`, and `index_date` (optional, see below), then
 
 ```sh
-docker run --rm -v "$PWD":/tmp degauss/schwartz:0.5.2 my_address_file_geocoded_schwartz_site_index.csv
+docker run --rm -v "$PWD":/tmp degauss/schwartz:0.5.3 my_address_file_geocoded_schwartz_site_index.csv
 ```
 
 will produce [`my_address_file_geocoded_schwartz_site_index_schwartz.csv`](https://github.com/degauss-org/schwartz/blob/master/test/my_address_file_geocoded_schwartz_site_index_schwartz.csv) with added columns named `date`, `PM25`, `NO2`, `O3`, and `days_from_index_date` (if `index_date` was supplied in the input data). 
