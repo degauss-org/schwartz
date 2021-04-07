@@ -35,7 +35,7 @@ Details on methods can be found at [https://github.com/geomarker-io/schwartz_exp
 
 ## geomarker data
 
-- Schwartz pollutant data is stored as [qs](https://github.com/traversc/qs) files in a private S3 bucket, which can only be accessed with appropriate AWS credentials. 
+- Schwartz pollutant data is stored as [qs](https://github.com/traversc/qs) files in a S3 bucket. 
 
 - Files are named with 3-digit geohash (or a combination of 3-digit geohashes in areas where population is sparse) and year of pollutant data. For example,  [`s3://geomarker/schwartz/exp_estimates_1km/by_gh3_year/dng_2016_round1.qs`](https://geomarker.s3.us-east-2.amazonaws.com/geomarker/schwartz/exp_estimates_1km/by_gh3_year/dng_2016_round1.qs)
 
