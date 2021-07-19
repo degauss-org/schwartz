@@ -16,27 +16,6 @@
       "Repository": "CRAN",
       "Hash": "e4c04affc2cac20c8fec18385cd14691"
     },
-    "DBI": {
-      "Package": "DBI",
-      "Version": "1.1.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "030aaec5bc6553f35347cbb1e70b1a17"
-    },
-    "KernSmooth": {
-      "Package": "KernSmooth",
-      "Version": "2.23-18",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "9e703ad8bf0e99f3691f05da32dfe68b"
-    },
-    "MASS": {
-      "Package": "MASS",
-      "Version": "7.3-53",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "d1bc1c8e9c0ace57ec9ffea01021d45f"
-    },
     "R6": {
       "Package": "R6",
       "Version": "2.5.0",
@@ -86,26 +65,12 @@
       "Repository": "CRAN",
       "Hash": "543776ae6848fde2f48ff3816d0628bc"
     },
-    "class": {
-      "Package": "class",
-      "Version": "7.3-18",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "15ef288688a6919417ade6251deea2b3"
-    },
-    "classInt": {
-      "Package": "classInt",
-      "Version": "0.4-3",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "17bdfa3c51df4a6c82484d13b11fb380"
-    },
     "cli": {
       "Package": "cli",
-      "Version": "2.5.0",
+      "Version": "3.0.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "a94ba44cee3ea571e813721e64184172"
+      "Hash": "e3ae5d68dea0c55a12ea12a9fda02e61"
     },
     "clipr": {
       "Package": "clipr",
@@ -137,10 +102,10 @@
     },
     "curl": {
       "Package": "curl",
-      "Version": "4.3.1",
+      "Version": "4.3.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "c5e68405893f030f139f6d6675eac675"
+      "Hash": "022c42d49c28e95d69ca60446dbabf88"
     },
     "desc": {
       "Package": "desc",
@@ -151,15 +116,15 @@
     },
     "dht": {
       "Package": "dht",
-      "Version": "0.0.3",
+      "Version": "0.0.4",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "dht",
       "RemoteUsername": "degauss-org",
       "RemoteRef": "HEAD",
-      "RemoteSha": "6c9df4384e2a51e7dfbfd62f368b87d1eba104eb",
-      "Hash": "cbc69b9e16bcbd0c838b2d7788770dbb"
+      "RemoteSha": "0f87ec511e1312f58f4e80c1c0ae5a4eb0d426be",
+      "Hash": "361f020b48566e8196306240ae66f367"
     },
     "digest": {
       "Package": "digest",
@@ -181,13 +146,6 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "36f1ae62f026c8ba9f9b5c9a08c03297"
-    },
-    "e1071": {
-      "Package": "e1071",
-      "Version": "1.7-7",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "7426a46e210d9f3815ed793e7112f582"
     },
     "ellipsis": {
       "Package": "ellipsis",
@@ -219,10 +177,10 @@
     },
     "gert": {
       "Package": "gert",
-      "Version": "1.3.0",
+      "Version": "1.3.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "56f398846cd40937be6b435a66bd3f37"
+      "Hash": "8612346a70ca2b2bebb0ef008d5c0e30"
     },
     "gh": {
       "Package": "gh",
@@ -336,13 +294,6 @@
       "Repository": "CRAN",
       "Hash": "a8742f0e454e8a40bc269920535e0afb"
     },
-    "proxy": {
-      "Package": "proxy",
-      "Version": "0.4-26",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "50b405c6419e921b9e9360cc9ebbcf2d"
-    },
     "purrr": {
       "Package": "purrr",
       "Version": "0.3.4",
@@ -399,13 +350,6 @@
       "Repository": "CRAN",
       "Hash": "06c85365a03fdaf699966cc1d3cf53ea"
     },
-    "s2": {
-      "Package": "s2",
-      "Version": "1.0.6",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "fb018249cc4b7ae7147d511fd33ddf82"
-    },
     "s3": {
       "Package": "s3",
       "Version": "0.3.1",
@@ -420,7 +364,7 @@
     },
     "schwartzGeohashPM": {
       "Package": "schwartzGeohashPM",
-      "Version": "0.0.6",
+      "Version": "0.0.7",
       "Source": "GitHub",
       "Remotes": "geomarker-io/s3, degauss-org/dht",
       "RemoteType": "github",
@@ -428,15 +372,8 @@
       "RemoteRepo": "schwartzGeohashPM",
       "RemoteUsername": "geomarker-io",
       "RemoteRef": "HEAD",
-      "RemoteSha": "a23279e0e283fed8c1d16779f9a710ae61db6aed",
-      "Hash": "c0cda32f6d9d363c1016472ec3742163"
-    },
-    "sf": {
-      "Package": "sf",
-      "Version": "1.0-0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "800804f284ba87cb28cf24fc47fc4e02"
+      "RemoteSha": "7ccb565e87605688e03a87f6765f4320685bd030",
+      "Hash": "166721ad9320be37b4b377f394b3c4d5"
     },
     "stringfish": {
       "Package": "stringfish",
@@ -447,10 +384,10 @@
     },
     "stringi": {
       "Package": "stringi",
-      "Version": "1.6.2",
+      "Version": "1.7.3",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "9df5e6f9a7fa11b84adf0429961de66a"
+      "Hash": "7943cfae120c77a255025e5f63856532"
     },
     "stringr": {
       "Package": "stringr",
@@ -487,13 +424,6 @@
       "Repository": "CRAN",
       "Hash": "7243004a708d06d4716717fa1ff5b2fe"
     },
-    "units": {
-      "Package": "units",
-      "Version": "0.7-2",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "e0f85712d5371ab2841f63cdb33fe0f0"
-    },
     "usethis": {
       "Package": "usethis",
       "Version": "2.0.1",
@@ -528,13 +458,6 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "ad03909b44677f930fa156d47d7a3aeb"
-    },
-    "wk": {
-      "Package": "wk",
-      "Version": "0.4.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "f7e41a60d8b19cf505ffa06bf578c7bd"
     },
     "yaml": {
       "Package": "yaml",
