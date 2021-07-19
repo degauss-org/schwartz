@@ -1,7 +1,7 @@
 #!/usr/local/bin/Rscript
 
 dht::greeting(geomarker_name = 'schwartz',
-              version = '0.5.4',
+              version = '0.5.5',
               description = 'adds daily PM2.5, NO2, and O3 concentrations from the Schwartz Model')
 
 library(dht)
@@ -46,5 +46,5 @@ out <- schwartzGeohashPM::add_schwartz_pollutants(raw_data, verbose = TRUE)
 dht::write_geomarker_file(d = out,
                           filename = opt$filename,
                           geomarker_name = 'schwartz',
-                          version = '0.5.4' )
+                          version = '0.5.5' )
 
