@@ -1,5 +1,7 @@
 # schwartz <a href='https://degauss-org.github.io/DeGAUSS/'><img src='DeGAUSS_hex.png' align="right" height="138.5" /></a>
 
+**🛑 _Archived_ 🛑 The cloud files used in this degauss container are not available. Please find newer estimates on SEDAC.**
+
 > add daily PM2.5, NO2, and O3 concentrations from Schwartz Model to data
 
 [![Docker Build Status](https://img.shields.io/docker/automated/degauss/schwartz)](https://hub.docker.com/repository/docker/degauss/schwartz/tags)
